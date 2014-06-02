@@ -1,0 +1,76 @@
+A. INTRODUCTION
+
+Visual Kivy (lite) is a small application for non experience programming users interested in creating and learn how main kivy widgets work. Through the different examples provided, as well as the possibility of designing basic smartphone interfaces, users will deep into kivy basics and programming.
+
+B. WIDGETS
+
+Widgets available in Visual Kivy (lite) are:
+
+1. Label
+2. Button
+3. TextInput
+4. CheckBox
+5. Popup
+6. Image
+7. FileChooser
+8. Spinner
+9. Slider
+10. ProgressBar
+11. Switch
+12. VideoPlayer 
+
+--------------------
+1. LABEL
+Displays one or more lines of text in the same style. Font size, type and position are some of the properties that can be defined.
+
+2. BUTTON
+The Button is a label with associated actions triggered when pressed or released. Size, font type and position are some of the properties available.
+
+3. TEXTINPUT
+The TextInput widget provides an editable box containing plain text. Multiline, selection and clipboard features are supported.
+
+4. CHECKBOX
+The CheckBox widget is a two-state button that can be either checked or unchecked. When a group is defined, the CheckBox becomes a Radio button.
+
+5. POPUP
+The Popup widget creates modal messages. All popups should contain at least the "title" and the "content" to be created. 
+
+6. IMAGE
+The Image widget displays images within the screen. 
+
+7. FILECHOOSER
+This widget displays the directory tree so folders and files can be selected. This widget offers two ways of browsing: 
+    7.1. ListView
+    7.2. IconView
+
+8. SPINNER
+This widget provides a quick way to select one value from a set. By default it shows its current selected value. Touching the Spinner, displays a dropdown menu with all other values from which the user can select a new one.
+
+9. SLIDER
+The Slider widget looks like a scrollbar, supporting vertical and horizontal orientation.
+
+10. PROGRESSBAR
+This widget is used to visualize the progress of some tasks. Only the horizontal mode is supported.
+
+11. SWITCH
+The Switch widget consists on a dual mode button that is active or inactive. Switch mode can be changed just by clicking on it. By default it appears as "off" (inactive) 
+
+12. VIDEOPLAYER
+This widget can be used to play video and let the user control the play/pausing, volume and position.
+
+
+C. WORK WITH VISUAL KIVY (Lite)
+
+The following steps provided explain how to use the application for adding widgets and obtain the kivy code associated to each action:
+
+- Press the New/Edit  button.
+- Among the three options available (Interface, View Code and Save), select "Interface".
+- Twelve widgets will be displayed. Click on one of them to display the properties.
+- After configuring the properties associated to the desired widget, select "Add widget" so it appears within the smartphone field.
+- If properties are closed without "undoing" the action, the code associated to the widget displayed will be added to the project code.
+- Click on "close properties" followed by "close" at the widget panel so you can get the code asspciated to each widget by selecting "View Code".
+
+D. SOME IMPORTANT NOTES
+
+- "clear" button restores all settings and actions taken.
+- While creating or editing an existing project, other options available within the application as "Load project", "Examples" or "Help", will not be accessible unless you save the current project or restore the settings with "clear".
